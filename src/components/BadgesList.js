@@ -29,7 +29,7 @@ class BadgesListItem extends React.Component {
 class BadgesList extends React.Component {
   render() {
     if (this.props.badges.length === 0) {
-      return (      
+      return (
         <div>
           <h3>No badges were found</h3>
           <Link className="btn btn-primary" to="/badges/new">
